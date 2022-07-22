@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:greengrocer/src/pages/orders/controller/all_orders_controller.dart';
-import 'package:greengrocer/src/pages/orders/view/components/order_tile.dart';
+import 'package:PDMStore/src/pages/orders/controller/all_orders_controller.dart';
+import 'package:PDMStore/src/pages/orders/view/components/order_tile.dart';
 
 class OrdersTab extends StatelessWidget {
   const OrdersTab({Key? key}) : super(key: key);
@@ -10,6 +10,7 @@ class OrdersTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: const Text('Pedidos'),
       ),
       body: GetBuilder<AllOrdersController>(

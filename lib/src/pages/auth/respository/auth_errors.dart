@@ -16,6 +16,6 @@ String authErrorsString(String? code) {
       return 'Ocorreu um erro ao cadastrar usuário: CPF inválido';
 
     default:
-      return 'Um erro indefinido ocorreu';
+      return 'Usuário já cadastrado';
   }
 }

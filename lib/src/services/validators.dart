@@ -16,7 +16,7 @@ String? passwordValidator(password) {
   }
 
   if (password.length < 8) {
-    return 'Digite uma senha com pelos menos 7 caracteres.';
+    return 'Digite uma senha com pelos menos 8 caracteres.';
   }
 
   return null;

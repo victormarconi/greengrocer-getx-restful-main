@@ -1,8 +1,8 @@
-import 'package:greengrocer/src/constants/endpoints.dart';
-import 'package:greengrocer/src/models/category_model.dart';
-import 'package:greengrocer/src/models/item_model.dart';
-import 'package:greengrocer/src/pages/home/result/home_result.dart';
-import 'package:greengrocer/src/services/http_manager.dart';
+import 'package:PDMStore/src/constants/endpoints.dart';
+import 'package:PDMStore/src/models/category_model.dart';
+import 'package:PDMStore/src/models/item_model.dart';
+import 'package:PDMStore/src/pages/home/result/home_result.dart';
+import 'package:PDMStore/src/services/http_manager.dart';
 
 class HomeRespository {
   final HttpManager _httpManager = HttpManager();

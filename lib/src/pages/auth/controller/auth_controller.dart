@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import 'package:greengrocer/src/constants/storage_keys.dart';
-import 'package:greengrocer/src/models/user_model.dart';
-import 'package:greengrocer/src/pages/auth/respository/auth_respository.dart';
-import 'package:greengrocer/src/pages/auth/result/auth_result.dart';
-import 'package:greengrocer/src/pages_routes/app_pages.dart';
-import 'package:greengrocer/src/services/utils_services.dart';
+import 'package:PDMStore/src/constants/storage_keys.dart';
+import 'package:PDMStore/src/models/user_model.dart';
+import 'package:PDMStore/src/pages/auth/respository/auth_respository.dart';
+import 'package:PDMStore/src/pages/auth/result/auth_result.dart';
+import 'package:PDMStore/src/pages_routes/app_pages.dart';
+import 'package:PDMStore/src/services/utils_services.dart';
 
 class AuthController extends GetxController {
   RxBool isLoading = false.obs;

@@ -1,14 +1,14 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:greengrocer/src/config/custom_colors.dart';
-import 'package:greengrocer/src/pages/auth/controller/auth_controller.dart';
-import 'package:greengrocer/src/pages/auth/view/components/forgot_password_dialog.dart';
-import 'package:greengrocer/src/pages/common_widgets/app_name_widget.dart';
-import 'package:greengrocer/src/pages/common_widgets/custom_text_field.dart';
-import 'package:greengrocer/src/pages_routes/app_pages.dart';
-import 'package:greengrocer/src/services/utils_services.dart';
-import 'package:greengrocer/src/services/validators.dart';
+import 'package:PDMStore/src/config/custom_colors.dart';
+import 'package:PDMStore/src/pages/auth/controller/auth_controller.dart';
+import 'package:PDMStore/src/pages/auth/view/components/forgot_password_dialog.dart';
+import 'package:PDMStore/src/pages/common_widgets/app_name_widget.dart';
+import 'package:PDMStore/src/pages/common_widgets/custom_text_field.dart';
+import 'package:PDMStore/src/pages_routes/app_pages.dart';
+import 'package:PDMStore/src/services/utils_services.dart';
+import 'package:PDMStore/src/services/validators.dart';
 
 class SignInScreen extends StatelessWidget {
   SignInScreen({Key? key}) : super(key: key);
@@ -39,7 +39,7 @@ class SignInScreen extends StatelessWidget {
                   children: [
                     // Nome do app
                     const AppNameWidget(
-                      greenTitleColor: Colors.white,
+                      greenTitleColor: Colors.green,
                       textSize: 40,
                     ),
 
@@ -54,12 +54,12 @@ class SignInScreen extends StatelessWidget {
                           pause: Duration.zero,
                           repeatForever: true,
                           animatedTexts: [
-                            FadeAnimatedText('Frutas'),
-                            FadeAnimatedText('Verduras'),
-                            FadeAnimatedText('Legumes'),
-                            FadeAnimatedText('Carnes'),
-                            FadeAnimatedText('Cereais'),
-                            FadeAnimatedText('Laticíneos'),
+                            FadeAnimatedText('Camisas de futebol'),
+                            FadeAnimatedText('Chuteiras'),
+                            FadeAnimatedText('Corta-vento'),
+                            FadeAnimatedText('Kit Esportivo'),
+                            FadeAnimatedText('Artigos esportivos'),
+                            FadeAnimatedText('Camisas da NBA'),
                           ],
                         ),
                       ),

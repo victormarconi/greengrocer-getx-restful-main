@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:greengrocer/src/config/custom_colors.dart';
+import 'package:PDMStore/src/config/custom_colors.dart';
 
 class AppNameWidget extends StatelessWidget {
   final Color? greenTitleColor;
@@ -20,13 +20,13 @@ class AppNameWidget extends StatelessWidget {
         ),
         children: [
           TextSpan(
-            text: 'Green',
+            text: 'PDM',
             style: TextStyle(
               color: greenTitleColor ?? CustomColors.customSwatchColor,
             ),
           ),
           TextSpan(
-            text: 'grocer',
+            text: 'Store',
             style: TextStyle(
               color: CustomColors.customContrastColor,
             ),

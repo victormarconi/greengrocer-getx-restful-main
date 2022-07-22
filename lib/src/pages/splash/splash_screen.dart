@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:greengrocer/src/config/custom_colors.dart';
-import 'package:greengrocer/src/pages/common_widgets/app_name_widget.dart';
+import 'package:PDMStore/src/config/custom_colors.dart';
+import 'package:PDMStore/src/pages/common_widgets/app_name_widget.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -24,7 +24,7 @@ class SplashScreen extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: const [
             AppNameWidget(
-              greenTitleColor: Colors.white,
+              greenTitleColor: Colors.green,
               textSize: 40,
             ),
             SizedBox(height: 10),

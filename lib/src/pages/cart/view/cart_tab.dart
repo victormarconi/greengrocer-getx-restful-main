@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:greengrocer/src/config/custom_colors.dart';
-import 'package:greengrocer/src/pages/cart/controller/cart_controller.dart';
-import 'package:greengrocer/src/pages/cart/view/components/cart_tile.dart';
-import 'package:greengrocer/src/services/utils_services.dart';
+import 'package:PDMStore/src/config/custom_colors.dart';
+import 'package:PDMStore/src/pages/cart/controller/cart_controller.dart';
+import 'package:PDMStore/src/pages/cart/view/components/cart_tile.dart';
+import 'package:PDMStore/src/services/utils_services.dart';
 
 class CartTab extends StatefulWidget {
   const CartTab({Key? key}) : super(key: key);
@@ -20,6 +20,7 @@ class _CartTabState extends State<CartTab> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: const Text('Carrinho'),
       ),
       body: Column(

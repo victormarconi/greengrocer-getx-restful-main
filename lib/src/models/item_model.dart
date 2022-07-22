@@ -9,7 +9,7 @@ class ItemModel {
   @JsonKey(name: 'title')
   String itemName;
 
-  @JsonKey(name: 'picture')
+  @JsonKey(name: 'picture1')
   String imgUrl;
 
   String unit;
